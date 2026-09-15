@@ -251,7 +251,7 @@ export const GameLoadingScreen: React.FC<GameLoadingScreenProps> = ({ onGameRead
               <canvas
                 ref={avatarCanvasRef}
                 className="w-full h-full object-cover"
-                title="Nhân vật 3D Avatar Profile của Lê Thị Minh Thu"
+                title="Nhân vật 3D Avatar Profile của Lê Thị Minh Thư"
               />
             </div>
           </div>
@@ -261,7 +261,7 @@ export const GameLoadingScreen: React.FC<GameLoadingScreenProps> = ({ onGameRead
         </div>
 
         <h2 className="text-xl font-black text-white tracking-wide font-sans">
-          Lê Thị Minh Thu
+          Lê Thị Minh Thư
         </h2>
         <p className="text-xs text-pink-300 font-medium mt-0.5 max-w-xs">
           Frontend Developer • AI & Computer Vision • STEM Facilitator

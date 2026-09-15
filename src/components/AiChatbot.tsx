@@ -11,7 +11,7 @@ export const AiChatbot: React.FC = () => {
     {
       id: 'welcome',
       role: 'assistant',
-      text: "✨ Xin chào! Mình là Navi, trợ lý AI đồng hành của Lê Thị Minh Thu (Thuww). Hãy hỏi mình về kinh nghiệm Frontend tại Ortho Fashion, các dự án AI & Deep Learning, học vấn HCMUS, hoặc cách liên hệ phỏng vấn nhé!",
+      text: "✨ Xin chào! Mình là Navi, trợ lý AI của Lê Thị Minh Thư (Thuww). Hãy hỏi mình về kinh nghiệm Frontend của Thư tại Ortho Fashion, các dự án AI & Deep Learning, học vấn tại HCMUS, hoặc cách liên hệ Thư để phỏng vấn nhé!",
       timestamp: Date.now(),
     },
   ]);
@@ -79,7 +79,7 @@ export const AiChatbot: React.FC = () => {
       const aiMsg: ChatMessage = {
         id: `ai-${Date.now()}`,
         role: 'assistant',
-        text: data.reply || "✨ Mình luôn sẵn sàng hỗ trợ thông tin ứng viên cho Quý Nhà tuyển dụng!",
+        text: data.reply || "✨ Mình luôn sẵn sàng hỗ trợ thông tin cho bạn!",
         timestamp: Date.now(),
         source: data.source,
       };
@@ -91,7 +91,7 @@ export const AiChatbot: React.FC = () => {
       const fallbackMsg: ChatMessage = {
         id: `fallback-${Date.now()}`,
         role: 'assistant',
-        text: "✨ Navi đây! Lê Thị Minh Thu là Frontend Developer & Cử nhân Thị giác Máy tính HCMUS, có kinh nghiệm thực chiến tại Ortho Fashion (React/Next.js/Tailwind), nghiên cứu VTON Deep Learning và điều phối STEM. Bạn có thể mở mục Hồ Sơ CV trên thanh điều hướng để xem chi tiết!",
+        text: "✨ Navi đây! Lê Thị Minh Thư là Frontend Developer & Cử nhân Thị giác Máy tính, có kinh nghiệm thực chiến tại Ortho Fashion (React/Next.js/Tailwind), nghiên cứu VTON Deep Learning và điều phối viên dự án STEM. Bạn có thể mở mục Hồ Sơ CV trên thanh điều hướng để xem chi tiết!",
         timestamp: Date.now(),
       };
       setMessages((prev) => [...prev, fallbackMsg]);
@@ -101,7 +101,7 @@ export const AiChatbot: React.FC = () => {
   };
 
   const SUGGESTED_QUESTIONS = [
-    "Kinh nghiệm Frontend của Minh Thu tại Ortho?",
+    "Kinh nghiệm Frontend của Minh Thư tại Ortho?",
     "Khóa luận AI Virtual Try-On (CatVTON)?",
     "Sản phẩm Taskify và Remote Control Java?",
     "Thông tin liên hệ và cách xem CV nhanh?",

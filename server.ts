@@ -46,7 +46,7 @@ app.post("/api/chat", async (req, res) => {
       // Offline / Keyless intelligent fallback persona response
       const fallbackResponses: Record<string, string> = {
         quest: "🌟 Nhiệm vụ của bạn là khám phá 5 hòn đảo trên Aetheria: Giới thiệu (About), Dự án (Projects), Kỹ năng (Skills), Nhật ký (Journal), và Liên hệ (Contact)! Tích lũy XP để mở khóa hồ sơ CV!",
-        project: "🚀 Minh Thu đã thực hiện nhiều sản phẩm tiêu biểu: 'Ortho Fashion' (UI Login, AI Chatbot), 'Taskify App' (React+TS Kanban kéo thả), 'Virtual Try-On AI' (CatVTON Deep Learning), 'Remote Control' (Java Socket), và 'Cờ Vua C++ SFML'!",
+        project: "🚀 Minh Thư đã thực hiện nhiều sản phẩm tiêu biểu: 'Ortho Fashion' (UI Login, AI Chatbot), 'Taskify App' (React+TS Kanban kéo thả), 'Virtual Try-On AI' (CatVTON Deep Learning), 'Remote Control' (Java Socket), và 'Cờ Vua C++ SFML'!",
         skill: "⚡ Kỹ năng cốt lõi: React.js, Next.js, TypeScript, Tailwind CSS, Python (PyTorch, OpenCV), Deep Learning, C++, Java, WordPress, Canva và Điều phối STEM & SEL.",
         contact: "📬 Bạn có thể liên hệ với Minh Thu qua Email: minhthu2k33@gmail.com, Số điện thoại: 0888 392 122, hoặc GitHub: github.com/Thuww!",
         hire: "💼 Minh Thu tốt nghiệp Cử nhân Thị giác Máy tính tại HCMUS (GPA 8.35/10), có kinh nghiệm Frontend thực chiến tại Ortho Fashion và sẵn sàng cho các cơ hội nghề nghiệp mới!"
@@ -66,7 +66,7 @@ app.post("/api/chat", async (req, res) => {
 
     const systemInstruction = `You are "Navi", an intelligent, polite, and engaging AI guide for Lê Thị Minh Thu's (Thuww) 3D Interactive Portfolio.
 Candidate Profile:
-- Full Name: Lê Thị Minh Thu (Thuww)
+- Full Name: Lê Thị Minh Thư (Thuww)
 - Roles: Frontend Developer • Computer Vision & AI Specialist • STEM Facilitator
 - Education: Bachelor of Computer Vision, University of Science - VNUHCM (HCMUS), GPA: 8.35/10 (~3.34/4.0). Selected for Integrated Master's Program.
 - Key Real Projects & Products:

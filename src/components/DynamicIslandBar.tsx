@@ -18,7 +18,7 @@ const SECTION_TITLES: Record<SectionKey, { name: string; icon: string }> = {
   about: { name: 'Đảo 01: Vườn Thông Tin', icon: '🌸' },
   projects: { name: 'Đảo 02: Khu Dự Án', icon: '🕹️' },
   skills: { name: 'Đảo 03: Chòm Sao Kỹ Năng', icon: '🔮' },
-  journal: { name: 'Đảo 04: Bản Đồ Kinh Nghiem', icon: '📜' },
+  journal: { name: 'Đảo 04: Bản Đồ Kinh Nghiệm', icon: '📜' },
   contact: { name: 'Đảo 05: Cổng Liên Hệ', icon: '🛸' },
 };
 

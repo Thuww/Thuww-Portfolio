@@ -332,7 +332,7 @@ export const AboutIslandView: React.FC<AboutIslandViewProps> = ({
                     <div>
                       <div className="flex items-center gap-2">
                         <h1 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white tracking-tight">
-                          Lê Thị Minh Thu
+                          Lê Thị Minh Thư
                         </h1>
                         <span className="text-xs px-2 py-0.5 rounded-full bg-pink-500/15 text-pink-600 dark:text-pink-400 font-bold border border-pink-500/30">
                           @Thuww
@@ -346,8 +346,8 @@ export const AboutIslandView: React.FC<AboutIslandViewProps> = ({
                     {/* 1-2 Line Identity Introduction (Súc tích & Thân thiện) */}
                     <p className="text-xs sm:text-[13px] text-slate-700 dark:text-slate-300 leading-relaxed bg-white/30 dark:bg-slate-900/40 p-3 rounded-2xl border border-white/25 dark:border-slate-800">
                       {t(
-                        'Cử nhân Computer Vision tại HCMUS, với nền tảng Frontend và AI. Mình thích biến ý tưởng thành những sản phẩm tương tác trực quan — từ web, ứng dụng AI đến game và creative technology.',
-                        'Computer Vision graduate from HCMUS with a background in Frontend and AI. I enjoy turning ideas into interactive experiences — from web and AI applications to games and creative technology.'
+                        'Mình tốt nghiệp Khoa học máy tính tại HCMUS, với background gần 2 năm làm về Frontend và AI. Mình thích thử những thứ mới và biến chúng thành sản phẩm thật, có thể là một website, một tính năng AI, một game nhỏ, hoặc đơn giản là một ý tưởng thú vị nào đó mà mình muốn tự build..',
+                        'I’m a Computer Science graduate from HCMUS with nearly 2 years of experience in Frontend and AI. I enjoy exploring new things and building them into something real — whether it’s a website, an AI feature, a small game, or just a random idea I feel like bringing to life.'
                       )}
                     </p>
 
@@ -356,7 +356,7 @@ export const AboutIslandView: React.FC<AboutIslandViewProps> = ({
                       <div className="flex flex-col items-center p-2 rounded-xl bg-white/40 dark:bg-slate-800/40 border border-white/30 dark:border-slate-700 text-center">
                         <span className="text-sm font-black text-pink-500 font-mono">8.35</span>
                         <span className="text-[9px] text-slate-500 dark:text-slate-400 font-bold leading-tight">
-                          {t('GPA Cử nhân', 'HCMUS GPA')}
+                          {t('GPA', 'GPA')}
                         </span>
                       </div>
                       <div className="flex flex-col items-center p-2 rounded-xl bg-white/40 dark:bg-slate-800/40 border border-white/30 dark:border-slate-700 text-center">
@@ -366,7 +366,7 @@ export const AboutIslandView: React.FC<AboutIslandViewProps> = ({
                         </span>
                       </div>
                       <div className="flex flex-col items-center p-2 rounded-xl bg-white/40 dark:bg-slate-800/40 border border-white/30 dark:border-slate-700 text-center">
-                        <span className="text-sm font-black text-purple-400 font-mono">2+</span>
+                        <span className="text-sm font-black text-purple-400 font-mono">2</span>
                         <span className="text-[9px] text-slate-500 dark:text-slate-400 font-bold leading-tight">
                           {t('Năm Frontend', 'Frontend Yrs')}
                         </span>
@@ -374,7 +374,7 @@ export const AboutIslandView: React.FC<AboutIslandViewProps> = ({
                       <div className="flex flex-col items-center p-2 rounded-xl bg-white/40 dark:bg-slate-800/40 border border-white/30 dark:border-slate-700 text-center">
                         <span className="text-sm font-black text-emerald-400 font-mono">740+</span>
                         <span className="text-[9px] text-slate-500 dark:text-slate-400 font-bold leading-tight">
-                          {t('Học sinh & người học', 'Learners Reached')}
+                          {t('Học sinh đã giảng dạy', 'Learners Reached')}
                         </span>
                       </div>
                       <div className="flex flex-col items-center p-2 rounded-xl bg-white/40 dark:bg-slate-800/40 border border-white/30 dark:border-slate-700 text-center">
@@ -439,7 +439,7 @@ export const AboutIslandView: React.FC<AboutIslandViewProps> = ({
                         <div className="flex items-center gap-2">
                           <span className="text-xs animate-bounce">✦</span>
                           <h4 className="text-xs font-black uppercase tracking-wider text-pink-500 dark:text-pink-400">
-                            {t('Không Chỉ Là Code', 'Beyond the Code')}
+                            {t('Không Chỉ Viết Code!!!', 'Beyond the Code!!!')}
                           </h4>
                         </div>
                         <span className="px-2 py-0.5 rounded-full bg-pink-500/10 border border-pink-500/20 text-[8px] font-black text-pink-500">
@@ -449,7 +449,7 @@ export const AboutIslandView: React.FC<AboutIslandViewProps> = ({
 
                       <p className="relative text-[11px] leading-relaxed text-slate-700 dark:text-slate-300 mb-3">
                         {t(
-                          'Mình thích đứng ở giao điểm giữa công nghệ, sáng tạo và con người — nơi một ý tưởng có thể trở thành thứ vừa hữu ích vừa thú vị.',
+                          'Mình thích đứng ở giao điểm giữa công nghệ, sáng tạo và con người - nơi một ý tưởng có thể trở thành thứ vừa hữu ích vừa thú vị.',
                           'I like working where technology, creativity, and people meet — turning ideas into experiences that are both useful and fun.'
                         )}
                       </p>
@@ -458,7 +458,7 @@ export const AboutIslandView: React.FC<AboutIslandViewProps> = ({
                         {[
                           { icon: '🧠', title: t('Tò mò', 'Curious'), text: t('Luôn muốn thử cái mới.', 'Always exploring new ideas.'), cls: 'text-pink-500' },
                           { icon: '🎨', title: t('Sáng tạo', 'Creative'), text: t('Code cũng là một chất liệu để tạo hình.', 'Code is another creative medium.'), cls: 'text-purple-400' },
-                          { icon: '💭', title: t('Đặt người dùng trước', 'Human-centered'), text: t('Quan tâm cách mọi người thực sự trải nghiệm sản phẩm.', 'I care about how people actually experience products.'), cls: 'text-cyan-400' },
+                          { icon: '💭', title: t('Đặt người dùng làm trung tâm', 'Human-centered'), text: t('Quan tâm cách mọi người thực sự trải nghiệm sản phẩm.', 'I care about how people actually experience products.'), cls: 'text-cyan-400' },
                           { icon: '🧪', title: t('Thích thử nghiệm', 'Experimental'), text: t('Học bằng cách build và iterate.', 'Learn by building and iterating.'), cls: 'text-emerald-400' },
                         ].map((item) => (
                           <div key={item.title} className="group p-2.5 rounded-xl bg-white/35 dark:bg-slate-800/40 border border-white/20 hover:-translate-y-0.5 hover:scale-[1.02] transition-all duration-200">
@@ -539,7 +539,7 @@ export const AboutIslandView: React.FC<AboutIslandViewProps> = ({
                           <span>🐙</span> GitHub
                         </a>
                         <a
-                          href="https://linkedin.com/in/thuww"
+                          href="linkedin.com/in/minh-thư-lê-503170281"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center justify-center gap-1 p-1.5 rounded-lg liquid-glass-pill text-[10px] font-bold text-slate-700 dark:text-slate-300 hover:text-pink-500 transition-colors"
