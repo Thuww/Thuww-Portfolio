@@ -56,7 +56,7 @@ app.post("/api/chat", async (req, res) => {
     if (!ai) {
       const fallbackResponses = {
         quest: "\u{1F31F} Nhi\u1EC7m v\u1EE5 c\u1EE7a b\u1EA1n l\xE0 kh\xE1m ph\xE1 5 h\xF2n \u0111\u1EA3o tr\xEAn Aetheria: Gi\u1EDBi thi\u1EC7u (About), D\u1EF1 \xE1n (Projects), K\u1EF9 n\u0103ng (Skills), Nh\u1EADt k\xFD (Journal), v\xE0 Li\xEAn h\u1EC7 (Contact)! T\xEDch l\u0169y XP \u0111\u1EC3 m\u1EDF kh\xF3a h\u1ED3 s\u01A1 CV!",
-        project: "\u{1F680} Minh Thu \u0111\xE3 th\u1EF1c hi\u1EC7n nhi\u1EC1u s\u1EA3n ph\u1EA9m ti\xEAu bi\u1EC3u: 'Ortho Fashion' (UI Login, AI Chatbot), 'Taskify App' (React+TS Kanban k\xE9o th\u1EA3), 'Virtual Try-On AI' (CatVTON Deep Learning), 'Remote Control' (Java Socket), v\xE0 'C\u1EDD Vua C++ SFML'!",
+        project: "\u{1F680} Minh Th\u01B0 \u0111\xE3 th\u1EF1c hi\u1EC7n nhi\u1EC1u s\u1EA3n ph\u1EA9m ti\xEAu bi\u1EC3u: 'Ortho Fashion' (UI Login, AI Chatbot), 'Taskify App' (React+TS Kanban k\xE9o th\u1EA3), 'Virtual Try-On AI' (CatVTON Deep Learning), 'Remote Control' (Java Socket), v\xE0 'C\u1EDD Vua C++ SFML'!",
         skill: "\u26A1 K\u1EF9 n\u0103ng c\u1ED1t l\xF5i: React.js, Next.js, TypeScript, Tailwind CSS, Python (PyTorch, OpenCV), Deep Learning, C++, Java, WordPress, Canva v\xE0 \u0110i\u1EC1u ph\u1ED1i STEM & SEL.",
         contact: "\u{1F4EC} B\u1EA1n c\xF3 th\u1EC3 li\xEAn h\u1EC7 v\u1EDBi Minh Thu qua Email: minhthu2k33@gmail.com, S\u1ED1 \u0111i\u1EC7n tho\u1EA1i: 0888 392 122, ho\u1EB7c GitHub: github.com/Thuww!",
         hire: "\u{1F4BC} Minh Thu t\u1ED1t nghi\u1EC7p C\u1EED nh\xE2n Th\u1ECB gi\xE1c M\xE1y t\xEDnh t\u1EA1i HCMUS (GPA 8.35/10), c\xF3 kinh nghi\u1EC7m Frontend th\u1EF1c chi\u1EBFn t\u1EA1i Ortho Fashion v\xE0 s\u1EB5n s\xE0ng cho c\xE1c c\u01A1 h\u1ED9i ngh\u1EC1 nghi\u1EC7p m\u1EDBi!"
@@ -73,7 +73,7 @@ app.post("/api/chat", async (req, res) => {
     }
     const systemInstruction = `You are "Navi", an intelligent, polite, and engaging AI guide for L\xEA Th\u1ECB Minh Thu's (Thuww) 3D Interactive Portfolio.
 Candidate Profile:
-- Full Name: L\xEA Th\u1ECB Minh Thu (Thuww)
+- Full Name: L\xEA Th\u1ECB Minh Th\u01B0 (Thuww)
 - Roles: Frontend Developer \u2022 Computer Vision & AI Specialist \u2022 STEM Facilitator
 - Education: Bachelor of Computer Vision, University of Science - VNUHCM (HCMUS), GPA: 8.35/10 (~3.34/4.0). Selected for Integrated Master's Program.
 - Key Real Projects & Products:
