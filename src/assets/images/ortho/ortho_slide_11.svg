@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+
+            <rect width="1280" height="720" fill="#07070e"/>
+            <!-- Versus Match Banner -->
+            <text x="640" y="70" fill="#ffffff" font-family="sans-serif" font-size="28" font-weight="900" letter-spacing="4" text-anchor="middle">AIGARDEN FIGHTER ARENA</text>
+            <rect x="490" y="85" width="300" height="30" rx="6" fill="#e11d48"/>
+            <text x="640" y="105" fill="#ffffff" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">WINNER IS DECIDED AUTONOMOUSLY BY AI</text>
+
+            <!-- Blue Fighter (Azuki) -->
+            <rect x="100" y="140" width="480" height="380" rx="16" fill="#0c1829" stroke="#38bdf8" stroke-width="2"/>
+            <text x="340" y="185" fill="#38bdf8" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Azuki #1834 (Blue)</text>
+            <circle cx="340" cy="280" r="70" fill="#0369a1"/>
+            <text x="340" y="290" fill="#ffffff" font-size="22" text-anchor="middle">AZUKI</text>
+            <text x="340" y="390" fill="#bae6fd" font-family="monospace" font-size="14" text-anchor="middle">Combat Power: 94,200</text>
+            <rect x="180" y="430" width="320" height="50" rx="10" fill="#0284c7"/>
+            <text x="340" y="461" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Back Blue Fighter</text>
+
+            <!-- VS Badge -->
+            <circle cx="640" cy="330" r="40" fill="#f59e0b"/>
+            <text x="640" y="340" fill="#000000" font-family="sans-serif" font-size="22" font-weight="900" text-anchor="middle">VS</text>
+
+            <!-- Red Fighter (Elemental) -->
+            <rect x="700" y="140" width="480" height="380" rx="16" fill="#240f1a" stroke="#f43f5e" stroke-width="2"/>
+            <text x="940" y="185" fill="#f43f5e" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Elemental #10700 (Red)</text>
+            <circle cx="940" cy="280" r="70" fill="#be123c"/>
+            <text x="940" y="290" fill="#ffffff" font-size="22" text-anchor="middle">ELEMENTAL</text>
+            <text x="940" y="390" fill="#fecdd3" font-family="monospace" font-size="14" text-anchor="middle">Combat Power: 92,800</text>
+            <rect x="780" y="430" width="320" height="50" rx="10" fill="#e11d48"/>
+            <text x="940" y="461" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">Back Red Fighter</text>
+
+            <!-- Tug of war odds bar -->
+            <g transform="translate(200, 560)">
+                <rect x="0" y="0" width="570" height="24" rx="12" fill="#0284c7"/>
+                <rect x="570" y="0" width="310" height="24" rx="12" fill="#e11d48"/>
+                <text x="0" y="-10" fill="#38bdf8" font-family="monospace" font-size="13" font-weight="bold">65% BLUE (13 $ANIME)</text>
+                <text x="880" y="-10" fill="#f43f5e" font-family="monospace" font-size="13" font-weight="bold" text-anchor="end">35% RED (7 $ANIME)</text>
+            </g>
+
+            <text x="640" y="650" fill="#94a3b8" font-family="monospace" font-size="14" text-anchor="middle">TOTAL MATCH POOL: 20 $ANIME • TIME REMAINING: 00:45</text>
+        
+</svg>

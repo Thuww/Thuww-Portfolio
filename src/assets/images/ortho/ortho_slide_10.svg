@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+
+            <rect width="1280" height="720" fill="#04050a"/>
+            <!-- Modal Center Frame -->
+            <rect x="290" y="40" width="700" height="640" rx="20" fill="#0f1424" stroke="#facc15" stroke-width="2"/>
+            
+            <!-- Rarity Badge -->
+            <rect x="330" y="70" width="110" height="30" rx="6" fill="#facc15"/>
+            <text x="385" y="90" fill="#000000" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">★ MYTHIC</text>
+            
+            <text x="460" y="92" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="bold">Lush Tale Watercolor</text>
+
+            <!-- 4-Quadrant Preview Canvas -->
+            <g transform="translate(330, 120)">
+                <!-- Quad 1 -->
+                <rect x="0" y="0" width="300" height="170" rx="10" fill="#14532d"/>
+                <text x="150" y="95" fill="#86efac" font-size="16" text-anchor="middle">Bamboo Grove</text>
+                <!-- Quad 2 -->
+                <rect x="320" y="0" width="300" height="170" rx="10" fill="#0c4a6e"/>
+                <text x="470" y="95" fill="#7dd3fc" font-size="16" text-anchor="middle">Floating Islet</text>
+                <!-- Quad 3 -->
+                <rect x="0" y="190" width="300" height="170" rx="10" fill="#701a75"/>
+                <text x="150" y="285" fill="#f0abfc" font-size="16" text-anchor="middle">Lotus Pavilion</text>
+                <!-- Quad 4 -->
+                <rect x="320" y="190" width="300" height="170" rx="10" fill="#1c1917"/>
+                <text x="470" y="285" fill="#d6d3d1" font-size="16" text-anchor="middle">Moonlit Cascade</text>
+            </g>
+
+            <!-- Web3 Telemetry & Recycle action -->
+            <rect x="330" y="500" width="620" height="70" rx="12" fill="#1a2035"/>
+            <text x="360" y="530" fill="#94a3b8" font-family="monospace" font-size="12">Daily Staking Yield: +420 KAI</text>
+            <text x="360" y="555" fill="#94a3b8" font-family="monospace" font-size="12">Total Usage: 1,842 prompts</text>
+            <text x="680" y="542" fill="#ffffff" font-family="monospace" font-size="12">Creator: 0xbd63...412d</text>
+
+            <!-- Action Buttons -->
+            <rect x="330" y="590" width="300" height="50" rx="10" fill="#22c55e"/>
+            <text x="480" y="621" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Sample Style</text>
+
+            <rect x="650" y="590" width="300" height="50" rx="10" fill="#dc2626"/>
+            <text x="800" y="621" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Recycle (166,670 KAI)</text>
+        
+</svg>

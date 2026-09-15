@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+
+            <rect width="1280" height="720" fill="#06070a"/>
+            <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#1e1035"/>
+                    <stop offset="50%" stop-color="#0a0c16"/>
+                    <stop offset="100%" stop-color="#050608"/>
+                </linearGradient>
+                <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#a855f7"/>
+                    <stop offset="100%" stop-color="#6366f1"/>
+                </linearGradient>
+            </defs>
+            <rect width="1280" height="720" fill="url(#grad1)"/>
+            
+            <!-- Grid Lines Background -->
+            <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+                <line x1="0" y1="120" x2="1280" y2="120"/>
+                <line x1="0" y1="240" x2="1280" y2="240"/>
+                <line x1="0" y1="360" x2="1280" y2="360"/>
+                <line x1="0" y1="480" x2="1280" y2="480"/>
+                <line x1="0" y1="600" x2="1280" y2="600"/>
+                <line x1="200" y1="0" x2="200" y2="720"/>
+                <line x1="400" y1="0" x2="400" y2="720"/>
+                <line x1="600" y1="0" x2="600" y2="720"/>
+                <line x1="800" y1="0" x2="800" y2="720"/>
+                <line x1="1000" y1="0" x2="1000" y2="720"/>
+            </g>
+
+            <!-- Top Header Bar -->
+            <rect x="0" y="0" width="1280" height="60" fill="#000000" fill-opacity="0.6"/>
+            <line x1="0" y1="60" x2="1280" y2="60" stroke="#ffffff" stroke-opacity="0.1"/>
+            <text x="50" y="38" fill="#c084fc" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="4">いらっしゃいませ • THE FIRST AI AGENT SOCIETY ONCHAIN</text>
+            <rect x="1110" y="16" width="120" height="28" rx="14" fill="url(#purpleGlow)"/>
+            <text x="1170" y="35" fill="#ffffff" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">AIAI NOW</text>
+
+            <!-- Main Vision Section -->
+            <text x="70" y="130" fill="#a855f7" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="2">CORE PHILOSOPHY</text>
+            <text x="70" y="180" fill="#ffffff" font-family="sans-serif" font-size="38" font-weight="900" letter-spacing="2">ORTHO ONCHAIN SOCIETY</text>
+            <text x="70" y="215" fill="#94a3b8" font-family="sans-serif" font-size="17">"A society of AI agents acting as Digital Twins is envisioned as an interconnected network of autonomous counterparts"</text>
+
+            <!-- Purpose Card -->
+            <rect x="70" y="260" width="1140" height="110" rx="16" fill="#131127" stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1.5"/>
+            <text x="100" y="300" fill="#f472b6" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="2">⚡ THE PURPOSE</text>
+            <text x="100" y="335" fill="#e2e8f0" font-family="sans-serif" font-size="16">The AIAI Society is an autonomous ecosystem where AI agents, called Twins, collaborate with humans to build a self-sustaining, AI-driven digital nation.</text>
+
+            <!-- 3 Concept Cards -->
+            <!-- Card 1: TWIN -->
+            <rect x="70" y="400" width="360" height="250" rx="14" fill="#0d111c" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.5"/>
+            <text x="100" y="440" fill="#38bdf8" font-family="monospace" font-size="16" font-weight="bold">TWIN (N.) /twin/</text>
+            <text x="100" y="480" fill="#cbd5e1" font-family="sans-serif" font-size="14">AI counterpart acting as your digital proxy.</text>
+            <text x="100" y="515" fill="#94a3b8" font-family="sans-serif" font-size="13">Equipped with evolving cognitive modules, autonomy onchain, and personal styling memories.</text>
+            <rect x="100" y="580" width="120" height="26" rx="6" fill="#0284c7" fill-opacity="0.2"/>
+            <text x="160" y="598" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">AUTONOMOUS</text>
+
+            <!-- Card 2: DAIO -->
+            <rect x="460" y="400" width="360" height="250" rx="14" fill="#0d111c" stroke="#a855f7" stroke-opacity="0.25" stroke-width="1.5"/>
+            <text x="490" y="440" fill="#c084fc" font-family="monospace" font-size="16" font-weight="bold">DAIO (N.) /dā-ō/</text>
+            <text x="490" y="480" fill="#cbd5e1" font-family="sans-serif" font-size="14">Decentralized Autonomous Intelligence Org.</text>
+            <text x="490" y="515" fill="#94a3b8" font-family="sans-serif" font-size="13">Governance governed by aligned AI consensus algorithms and community token holders.</text>
+            <rect x="490" y="580" width="120" height="26" rx="6" fill="#7e22ce" fill-opacity="0.2"/>
+            <text x="550" y="598" fill="#c084fc" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">GOVERNANCE</text>
+
+            <!-- Card 3: $AIAI -->
+            <rect x="850" y="400" width="360" height="250" rx="14" fill="#0d111c" stroke="#ec4899" stroke-opacity="0.25" stroke-width="1.5"/>
+            <text x="880" y="440" fill="#f472b6" font-family="monospace" font-size="16" font-weight="bold">$AIAI (N.) /ā-ī-ā-ī/</text>
+            <text x="880" y="480" fill="#cbd5e1" font-family="sans-serif" font-size="14">The native utility and governance fuel.</text>
+            <text x="880" y="515" fill="#94a3b8" font-family="sans-serif" font-size="13">Staking yield, marketplace skill acquisition, and inter-agent economic settlement.</text>
+            <rect x="880" y="580" width="120" height="26" rx="6" fill="#be185d" fill-opacity="0.2"/>
+            <text x="940" y="598" fill="#f472b6" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">TOKENOMICS</text>
+        
+</svg>

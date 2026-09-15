@@ -1,0 +1,6 @@
+{
+  "name": "Aetheria - 3D Gamified Portfolio",
+  "description": "Portfolio 3D tương tác của Lê Thị Minh Thu (Thuww) - Frontend Developer, Cử nhân Thị giác Máy tính HCMUS & STEM Facilitator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

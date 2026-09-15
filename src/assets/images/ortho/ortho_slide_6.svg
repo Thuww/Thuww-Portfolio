@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+
+            <rect width="1280" height="720" fill="#0a0d18"/>
+            <!-- Top bar -->
+            <rect x="0" y="0" width="1280" height="60" fill="#05070d"/>
+            <text x="50" y="38" fill="#38bdf8" font-family="monospace" font-size="15" font-weight="bold">potion-dev.asia-southeast1.run.app • POTION WORLD POOL</text>
+            
+            <!-- Filter tags -->
+            <rect x="50" y="80" width="1180" height="50" rx="8" fill="#131b2e"/>
+            <text x="80" y="112" fill="#ffffff" font-family="monospace" font-size="13">TAGS:  [#digitalart]  [#abstract]  [#surrealism]  [#cyberpunk]  [#portrait]  [#anime_v2]</text>
+
+            <!-- Grid of 6 styles -->
+            <!-- Card 1 -->
+            <rect x="50" y="160" width="370" height="230" rx="14" fill="#101827" stroke="#38bdf8" stroke-width="1.5"/>
+            <rect x="70" y="180" width="330" height="130" rx="8" fill="#1e293b"/>
+            <text x="235" y="250" fill="#38bdf8" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Solitude Moodboard</text>
+            <text x="70" y="340" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="bold">Solitude In Rain</text>
+            <text x="70" y="365" fill="#94a3b8" font-family="monospace" font-size="12">Diffusion • Cyberpunk Blue • 1,420 Uses</text>
+
+            <!-- Card 2 -->
+            <rect x="455" y="160" width="370" height="230" rx="14" fill="#101827" stroke="#a855f7" stroke-width="1.5"/>
+            <rect x="475" y="180" width="330" height="130" rx="8" fill="#2e1065"/>
+            <text x="640" y="250" fill="#c084fc" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Art Composition</text>
+            <text x="475" y="340" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="bold">Cubist Fluidity</text>
+            <text x="475" y="365" fill="#94a3b8" font-family="monospace" font-size="12">Abstract • 3D Atelier • 980 Uses</text>
+
+            <!-- Card 3 -->
+            <rect x="860" y="160" width="370" height="230" rx="14" fill="#101827" stroke="#ec4899" stroke-width="1.5"/>
+            <rect x="880" y="180" width="330" height="130" rx="8" fill="#4c0519"/>
+            <text x="1045" y="250" fill="#f472b6" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Pop Art Portraits</text>
+            <text x="880" y="340" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="bold">Neon Street Idol</text>
+            <text x="880" y="365" fill="#94a3b8" font-family="monospace" font-size="12">Persona • Streetwear • 3,210 Uses</text>
+
+            <!-- Card 4 -->
+            <rect x="50" y="420" width="370" height="230" rx="14" fill="#101827" stroke="#334155"/>
+            <rect x="70" y="440" width="330" height="130" rx="8" fill="#0f172a"/>
+            <text x="235" y="510" fill="#94a3b8" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Retro Cyberwave</text>
+            <text x="70" y="600" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="bold">Vaporwave Glow</text>
+            <text x="70" y="625" fill="#94a3b8" font-family="monospace" font-size="12">Synth • Neon • 750 Uses</text>
+
+            <!-- Card 5 -->
+            <rect x="455" y="420" width="370" height="230" rx="14" fill="#101827" stroke="#334155"/>
+            <rect x="475" y="440" width="330" height="130" rx="8" fill="#0f172a"/>
+            <text x="640" y="510" fill="#94a3b8" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Watercolor Mythic</text>
+            <text x="475" y="600" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="bold">Lush Tale Spring</text>
+            <text x="475" y="625" fill="#94a3b8" font-family="monospace" font-size="12">Watercolor • Mythic Rarity • 2,400 Uses</text>
+
+            <!-- Card 6 -->
+            <rect x="860" y="420" width="370" height="230" rx="14" fill="#101827" stroke="#334155"/>
+            <rect x="880" y="440" width="330" height="130" rx="8" fill="#0f172a"/>
+            <text x="1045" y="510" fill="#94a3b8" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Glitch Cyberpunk</text>
+            <text x="880" y="600" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="bold">Binary Glitch Portrait</text>
+            <text x="880" y="625" fill="#94a3b8" font-family="monospace" font-size="12">Glitch • Raw Model • 1,120 Uses</text>
+        
+</svg>

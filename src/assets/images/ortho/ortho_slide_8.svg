@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+
+            <rect width="1280" height="720" fill="#060913"/>
+            <defs>
+                <radialGradient id="dragonGlow" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.4"/>
+                    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+                </radialGradient>
+            </defs>
+            <rect width="1280" height="720" fill="url(#dragonGlow)"/>
+
+            <!-- Center Artwork Frame -->
+            <rect x="240" y="50" width="800" height="620" rx="20" fill="#0b1120" stroke="#06b6d4" stroke-width="2"/>
+            
+            <!-- Samurai Artwork Representation -->
+            <rect x="270" y="80" width="740" height="420" rx="12" fill="#031b2e"/>
+            <circle cx="640" cy="270" r="140" fill="#083344" stroke="#06b6d4" stroke-width="3"/>
+            
+            <!-- Water Dragon Curve Lines -->
+            <path d="M 450 340 Q 640 160 830 340" stroke="#22d3ee" stroke-width="8" fill="none" stroke-linecap="round"/>
+            <path d="M 480 370 Q 640 210 800 370" stroke="#67e8f9" stroke-width="4" fill="none" stroke-linecap="round"/>
+            
+            <!-- Samurai Helmet & Visor -->
+            <polygon points="640,190 600,260 680,260" fill="#0284c7"/>
+            <rect x="615" y="240" width="50" height="12" rx="4" fill="#a5f3fc"/>
+            <text x="640" y="460" fill="#a5f3fc" font-family="sans-serif" font-size="28" font-weight="900" letter-spacing="4" text-anchor="middle">ELEMENTAL #1138</text>
+            <text x="640" y="490" fill="#67e8f9" font-family="monospace" font-size="13" text-anchor="middle">WATER DRAGON SAMURAI • GENERATIVE ARTWORK</text>
+
+            <!-- Bottom Telemetry Bar -->
+            <g transform="translate(280, 530)">
+                <text x="0" y="30" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="bold">Creator: 0x71a4...88b2</text>
+                <text x="0" y="55" fill="#94a3b8" font-family="sans-serif" font-size="12">Minted on AIGARDEN Atelier • Contract Verified</text>
+
+                <!-- Interactions -->
+                <rect x="520" y="10" width="100" height="38" rx="8" fill="#164e63"/>
+                <text x="570" y="34" fill="#22d3ee" font-family="monospace" font-size="13" font-weight="bold" text-anchor="middle">▲ 142</text>
+
+                <rect x="630" y="10" width="90" height="38" rx="8" fill="#1e293b"/>
+                <text x="675" y="34" fill="#ffffff" font-family="monospace" font-size="13" text-anchor="middle">SHARE</text>
+            </g>
+        
+</svg>

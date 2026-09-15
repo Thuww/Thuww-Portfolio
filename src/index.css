@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-caveat {
+  font-family: 'Caveat', cursive;
+}
+
+.font-space {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Glassmorphism Liquid Cards & Apple VisionOS Liquid Glass */
+.liquid-glass {
+  background: radial-gradient(
+      120% 120% at 50% 0%,
+      rgba(255, 255, 255, 0.72) 0%,
+      rgba(255, 255, 255, 0.42) 100%
+    );
+  backdrop-filter: blur(28px) saturate(180%);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  border: 1.5px solid rgba(255, 255, 255, 0.75);
+  box-shadow:
+    inset 0 1.5px 2px 0 rgba(255, 255, 255, 0.9),
+    inset 0 -1.5px 3px 0 rgba(255, 255, 255, 0.25),
+    0 24px 48px -12px rgba(148, 163, 184, 0.25),
+    0 10px 24px -6px rgba(0, 0, 0, 0.06);
+}
+
+.dark .liquid-glass {
+  background: radial-gradient(
+      120% 120% at 50% 0%,
+      rgba(30, 41, 59, 0.78) 0%,
+      rgba(15, 23, 42, 0.88) 100%
+    );
+  backdrop-filter: blur(32px) saturate(190%);
+  -webkit-backdrop-filter: blur(32px) saturate(190%);
+  border: 1.5px solid rgba(255, 255, 255, 0.16);
+  box-shadow:
+    inset 0 1.5px 2px 0 rgba(255, 255, 255, 0.22),
+    inset 0 -1.5px 3px 0 rgba(0, 0, 0, 0.4),
+    0 28px 56px -12px rgba(0, 0, 0, 0.55),
+    0 12px 28px -6px rgba(0, 0, 0, 0.4);
+}
+
+.liquid-glass-pill {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow:
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.9),
+    inset 0 -1px 2px 0 rgba(255, 255, 255, 0.2),
+    0 8px 24px -4px rgba(0, 0, 0, 0.08);
+}
+
+.dark .liquid-glass-pill {
+  background: rgba(30, 41, 59, 0.82);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow:
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.25),
+    inset 0 -1px 2px 0 rgba(0, 0, 0, 0.4),
+    0 8px 24px -4px rgba(0, 0, 0, 0.4);
+}
+
+.liquid-specular-edge {
+  position: relative;
+}
+.liquid-specular-edge::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+  pointer-events: none;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+}
+
+.dark .glass-panel {
+  background: rgba(15, 23, 42, 0.72);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.06) inset;
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.dark .glass-pill {
+  background: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.7);
+}
+
+/* Liquid Blob and Floating animations */
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+}
+
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+.animate-float {
+  animation: float-slow 4s ease-in-out infinite;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2.5s ease-in-out infinite;
+}
+
+@keyframes showroom-timer-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-showroom-timer-progress {
+  animation: showroom-timer-progress 4.5s linear forwards;
+}
+

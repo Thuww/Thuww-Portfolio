@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+
+            <rect width="1280" height="720" fill="#07120c"/>
+            <!-- Terraced Green Maze Lines -->
+            <defs>
+                <linearGradient id="mazeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#064e3b"/>
+                    <stop offset="100%" stop-color="#022c22"/>
+                </linearGradient>
+            </defs>
+            <rect width="1280" height="720" fill="url(#mazeGrad)"/>
+
+            <text x="50" y="50" fill="#34d399" font-family="sans-serif" font-size="22" font-weight="bold">3D ECOLOGICAL SWARM LABYRINTH</text>
+            <text x="50" y="75" fill="#a7f3d0" font-family="monospace" font-size="13">Bio-Terraced Coordinates • 8 Animal Agents Active</text>
+
+            <!-- Geometric Maze Rings -->
+            <g stroke="#10b981" stroke-width="12" fill="none" stroke-linejoin="round">
+                <rect x="240" y="130" width="800" height="480" rx="40"/>
+                <rect x="340" y="190" width="600" height="360" rx="30"/>
+                <rect x="440" y="250" width="400" height="240" rx="20"/>
+            </g>
+
+            <!-- Coordinate Pins -->
+            <circle cx="280" cy="180" r="15" fill="#fbbf24"/>
+            <text x="280" y="185" fill="#000000" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">1</text>
+            
+            <circle cx="700" cy="130" r="15" fill="#fbbf24"/>
+            <text x="700" y="135" fill="#000000" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">2</text>
+
+            <circle cx="980" cy="240" r="15" fill="#fbbf24"/>
+            <text x="980" y="245" fill="#000000" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">4</text>
+
+            <circle cx="800" cy="430" r="15" fill="#fbbf24"/>
+            <text x="800" y="435" fill="#000000" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">5</text>
+
+            <circle cx="500" cy="490" r="15" fill="#fbbf24"/>
+            <text x="500" y="495" fill="#000000" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">6</text>
+
+            <rect x="600" y="340" width="80" height="30" rx="6" fill="#059669"/>
+            <text x="640" y="360" fill="#ffffff" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">NODE AO</text>
+
+            <!-- Mode Switcher Badge -->
+            <rect x="1020" y="30" width="200" height="40" rx="8" fill="#065f46" stroke="#34d399"/>
+            <text x="1120" y="55" fill="#ffffff" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">ALL SWARM MODE: ON</text>
+        
+</svg>
