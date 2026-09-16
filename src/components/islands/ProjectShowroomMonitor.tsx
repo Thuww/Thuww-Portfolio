@@ -48,18 +48,18 @@ import {
 
 // Production Project Slides for Ortho Fashion (Direct Image Backgrounds)
 import orthoSlide1 from '../../assets/images/ortho/ortho_slide_1.jpg';
-import orthoSlide2 from '../../assets/images/ortho/ortho_slide_2.svg';
-import orthoSlide3 from '../../assets/images/ortho/ortho_slide_3.svg';
-import orthoSlide4 from '../../assets/images/ortho/ortho_slide_4.svg';
-import orthoSlide5 from '../../assets/images/ortho/ortho_slide_5.svg';
-import orthoSlide6 from '../../assets/images/ortho/ortho_slide_6.svg';
-import orthoSlide7 from '../../assets/images/ortho/ortho_slide_7.svg';
-import orthoSlide8 from '../../assets/images/ortho/ortho_slide_8.svg';
-import orthoSlide9 from '../../assets/images/ortho/ortho_slide_9.svg';
-import orthoSlide10 from '../../assets/images/ortho/ortho_slide_10.svg';
-import orthoSlide11 from '../../assets/images/ortho/ortho_slide_11.svg';
-import orthoSlide12 from '../../assets/images/ortho/ortho_slide_12.svg';
-import orthoSlide13 from '../../assets/images/ortho/ortho_slide_13.svg';
+import orthoSlide2 from '../../assets/images/ortho/ortho_slide_2.jpg';
+import orthoSlide3 from '../../assets/images/ortho/ortho_slide_3.jpg';
+import orthoSlide4 from '../../assets/images/ortho/ortho_slide_4.jpg';
+import orthoSlide5 from '../../assets/images/ortho/ortho_slide_5.jpg';
+import orthoSlide6 from '../../assets/images/ortho/ortho_slide_6.jpg';
+import orthoSlide7 from '../../assets/images/ortho/ortho_slide_7.jpg';
+import orthoSlide8 from '../../assets/images/ortho/ortho_slide_8.jpg';
+import orthoSlide9 from '../../assets/images/ortho/ortho_slide_9.jpg';
+import orthoSlide10 from '../../assets/images/ortho/ortho_slide_10.jpg';
+import orthoSlide11 from '../../assets/images/ortho/ortho_slide_11.jpg';
+import orthoSlide12 from '../../assets/images/ortho/ortho_slide_12.jpg';
+import orthoSlide13 from '../../assets/images/ortho/ortho_slide_13.jpg';
 
 // Asset imports
 import defaultShowcaseImg from '../../assets/images/stream_showcase_1788945642068.jpg';
